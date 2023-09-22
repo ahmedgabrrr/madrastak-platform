@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>مدرستك</title>
+	<link rel="stylesheet" href="../css/css.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+
+
+	<link rel="stylesheet" href=
+        "https://purecss.io/css/pure/pure-min.css">
+    <link rel="stylesheet" href=
+    "https://purecss.io/layouts/side-menu/styles.css">
+    <script src="https://purecss.io/js/ui.js"></script>
+</head>
+<body>
+	<a class="en-btn" href="../../english/html/الملف الشخصي .html"><p>EN</p></a>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<div class="row profile-page">
+		<div class="col-md-3 col-sm-12 left-list">
+			<div>
+				<img class="logo" src="../assets/logo.png" alt="">
+				
+			
+			</div>
+			<div class="list-group ">
+				
+				<a href="#basics"><button type="button" class="list-group-item list-group-item-action left-item">المعلومات الأساسية</button></a>
+				<a href="#links"><button type="button" class="list-group-item list-group-item-action left-item" >الروابط</button></a>
+				<a href="#security"><button type="button" class="list-group-item list-group-item-action left-item" >الآمان وكلمة السر</button></a>
+				<a href="#stop-profile"><button type="button" class="list-group-item list-group-item-action left-item">إيقاف الحساب</button></a>
+			</div>
+		</div>
+		
+		
+		<div class="col-md-6 col-sm-12">
+			<div class="head">
+				<div class="head-span">
+					<p class="head-p">الملف الشخصـي</p>
+				</div>
+			</div>
+			<div class="row profile-boxes-row">
+				<div>
+					<p class="img-p" id="img">الصورة</p>
+					<div class="change-photo">
+						<img src="../assets/hema.png" alt="">
+						<p class="change-p">تغيير الصورة</p>
+						<button class="img-btn">رفع صورة</button><input type="file" class="img-upload">
+					</div>
+					<div class="basics" id="basics"> 
+						<p class="basics-p">الأساسيات</p>
+						<form class="profile-form" action="">
+							<div class="name">
+								<input type="text" name="last-name" id="last-name">
+								<label for="last-name">الإسم الأخير</label>
+								<input type="text" name="first-name" id="first-name">
+								<label for="first-name">الإسم الأول</label>
+							</div>
+							<div class="family-name">
+								<input type="text" name="family-name" id="family-name">
+								<label for="family-name">اللقب</label>
+							</div>
+							<div class="numbers">
+								<input type="text" name="phone" id="phone">
+								<label for="phone">رقم الهاتف</label>
+								<input type="text" name="level" id="level">
+								<label for="level">الصف</label>
+							</div>
+						</form>
+					</div>
+
+					<p class="links-p" id="links">الروابط</p>
+					<div class="links" >
+						<div>
+							<p>تويتر</p>
+							<button class="social-btn"> https://twitter.com/</button><input type="url" placeholder="Twitter username">
+						</div>
+						<div>
+							<p>فيسبوك</p>
+							<button class="social-btn"> https://facebook.com/</button><input type="url" placeholder="Facebook profile">
+						</div>
+						<div>
+							<p>لينكدن</p>
+							<button class="social-btn"> https://linkedin.com/in/</button><input type="url" placeholder="Linkedin profile">
+						</div>
+					</div>
+					<p class="security-p">الآمان وكلمة السر</p>
+					<div class="security" id="security">
+						<p>البريد الإلكتروني</p>
+						<input type="email" placeholder="ibrahemahmed@gmail.com">
+						<button class="security-btn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+							<path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+							<path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+							</svg>
+						</button>
+						<p>كلمة السر</p>
+						<div>
+							<input type="password" placeholder="أدخل كلمة السر الحالية">
+						</div>
+						<div class="pass">
+							<input type="password" placeholder="أدخل كلمة السر الجديدة">
+							<input type="password" placeholder="أعِد كتابة كلمة السر الجديدة">
+						</div>
+					</div>
+					<p class="stop-profile-p">إيقاف الحساب</p>
+					<div class="stop-profile" id="stop-profile">
+						<p>تحذير: إذا قمت بإغلاق حسابك، فسيتم إلغاء اشتراكك في جميع الدورات التدريبية الخاصة بك، وستفقد إمكانية الوصول لها إلى الأبد.</p>
+						<button class="stop-profile-btn">إيقاف الحساب</button>
+					</div>
+					<div class="btns">
+						<button class="cancel-btn">إلغاء</button>
+						<button class="save-btn">حفظ التغييرات</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="rightnav" id="myrightnav">
+				<a href="../html/الواجهة.html" ><img src="../assets/ابراهيم.png" alt=""></a>
+				<p class="ebrahim">إبراهيم أحمد</p>
+				<p class="nine"> الصف التاسع </p>
+				<a  href="../html/الرئيسية.html">
+					الرئيسية
+					<span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
+						<path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+						</svg></span>
+				</a>
+				<a href="../html/دوراتي.html">دوراتي
+					<span><svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+						<path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+						<path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+						</svg></span>
+				</a>
+				<a  href="../html/الاختبارات.html">إختبارات
+					<span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+						<path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+						<path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+						</svg></span>
+				</a>
+				<a  href="../html/المحاضرات.html">المحاضرات
+					<span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-camera-video-fill" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
+						</svg></span>
+				</a>
+				<a href="../html/تواصل طالب.html">تواصل
+					<span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+						<path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+					  </svg></span>
+				</a>
+				<a class="active" href="../html/الملف الشخصي .html">الملف الشخصـي
+					<span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+						<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+						</svg></span>
+				</a>
+				<a class="sign-out" href="../html/تسجيل الدخول 2.html">تسجيل الخروج
+					<span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16">
+						<path d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2h.5a.5.5 0 0 1 .5.5V15h-1V2zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+						</svg></span>
+				</a>
+
+				<a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+				  <i class="fa fa-bars"></i>
+				</a>
+			  </div>
+		</div>
+	
+		
+	</div>
+	</div>
+
+	<script src="../js/js.js"></script>
+	<script src="./js/cdnjs.cloudflare.com_ajax_libs_popper.js_1.11.0_umd_popper.min.js"></script>
+	<script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+</body>
+</html>
